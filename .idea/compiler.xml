@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="productapp-order-service" />
+        <module name="productapp-cloud-gateway" />
+        <module name="productapp-cart-feign" />
+        <module name="productapp-eureka-server" />
+        <module name="productapp-cart-resilence" />
+        <module name="productapp-cart-service" />
+        <module name="productapp-config-server" />
+        <module name="productapp-product-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="productapp-cart-feign" target="11" />
+      <module name="productapp-cart-resilence" target="11" />
+      <module name="productapp-cart-service" target="11" />
+      <module name="productapp-cloud-gateway" target="11" />
+      <module name="productapp-config-server" target="11" />
+      <module name="productapp-eureka-server" target="11" />
+      <module name="productapp-order-service" target="11" />
+      <module name="productapp-product-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="productapp-cart-feign" options="-parameters" />
+      <module name="productapp-cart-resilence" options="-parameters" />
+      <module name="productapp-cart-service" options="-parameters" />
+      <module name="productapp-cloud-gateway" options="-parameters" />
+      <module name="productapp-config-server" options="-parameters" />
+      <module name="productapp-eureka-server" options="-parameters" />
+      <module name="productapp-order-service" options="-parameters" />
+      <module name="productapp-product-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/productapp-cart-feign/productapp-cart-feign.iml" filepath="$PROJECT_DIR$/productapp-cart-feign/productapp-cart-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapp-cart-resilence/productapp-cart-resilence.iml" filepath="$PROJECT_DIR$/productapp-cart-resilence/productapp-cart-resilence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapp-cart-service/productapp-cart-service.iml" filepath="$PROJECT_DIR$/productapp-cart-service/productapp-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapp-cloud-gateway/productapp-cloud-gateway.iml" filepath="$PROJECT_DIR$/productapp-cloud-gateway/productapp-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapp-config-server/productapp-config-server.iml" filepath="$PROJECT_DIR$/productapp-config-server/productapp-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapp-eureka-server/productapp-eureka-server.iml" filepath="$PROJECT_DIR$/productapp-eureka-server/productapp-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapp-order-service/productapp-order-service.iml" filepath="$PROJECT_DIR$/productapp-order-service/productapp-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapp-product-service/productapp-product-service.iml" filepath="$PROJECT_DIR$/productapp-product-service/productapp-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmicroservices.iml" filepath="$PROJECT_DIR$/springmicroservices.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+#http://loaclhost:8761 is the url where the registry is running line n.13
+#this is a registry. so do not self register eureka to eureka line no.13
+#this is a registry.So do not fetch the registry linee no12
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://${eureka.instance.hostname}:&{server.port}
+    fetch-registry: false
+    register-with-eureka: false
+  instance:
+    hostname: localhost
